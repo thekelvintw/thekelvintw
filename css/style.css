@@ -1,0 +1,101 @@
+/*color note:
+rgb(214,209,177)
+rgb(254,95,85)
+rgb(240,182,127)
+rgb(199,239,207)
+rgb(238,245,219)*/
+
+body{background-color:rgb(214,209,177);
+	margin:0px;
+	font-size:100%;
+
+}
+
+.container{
+			width:800px;
+			margin-left:auto;
+			margin-right:auto;
+			overflow: hidden;
+
+}
+
+header{background-color:rgb(254,95,85);
+		padding-top:1em;
+		padding-bottom:1em;
+}
+
+hgroup h1, hgroup p{margin:0px;
+
+}
+
+
+
+.intropic{
+			float:right;
+			margin:10px;
+			border-radius: 10px;
+			width:150px;
+			height:150px;
+
+}
+
+.side-column{
+	float:left;
+	background-color:rgb(199,239,207);
+	
+
+}
+.side-column p{
+	border:solid 1px gray;
+	padding:10px;
+	margin:0;
+}
+
+.placeintro {
+	width:550px;
+	padding-left:5px;
+	float:right;
+
+}
+
+.container p, {
+	margin-left:10px;
+	margin-right:10px;
+}
+
+
+
+.context img, .placepic{
+	margin:10px;
+	border-radius: 10px;
+	width:400;
+	height:250px;
+}
+
+
+
+.context img:nth-of-type(2n+1), .placepic{
+	float:right;
+}
+
+.context img:nth-of-type(2n){
+	float:left;
+}
+
+
+
+/* The clearfix */
+.clearfix:after {
+	clear:both;
+	display:table;
+	content:'';
+}
+
+footer{
+	text-align:center;
+	color:white;
+	margin-top:1em;
+	margin-bottom:1em;
+
+
+}
